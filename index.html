@@ -13,7 +13,7 @@
 
 
 <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <!-- Symbol + Site Name -->
     <div class="d-flex align-items-center">
@@ -26,29 +26,38 @@
       </svg>
       <a class="navbar-brand ms-2 fw-bold" style="font-family: serif; color: #E6521F;" href="#">RAJASTHAN</a>
     </div>
-
-    <!-- Toggler for mobile -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-      aria-label="Toggle navigation" style="color: #E6521F;">
-      <span class="navbar-toggler-icon"></span>
+        
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: #E6521F;">
+      <span class="navbar-toggler-icon" ></span>
     </button>
-
-    <!-- Social Icons -->
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" style="color: #E6521F;">
-      <ul class="navbar-nav mb-2 mb-lg-0 align-items-lg-center gap-3">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fab fa-instagram fa-lg"></i></a>
+          <a class="nav-link active" aria-current="page" href="#" style="color: #E6521F;">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fab fa-twitter fa-lg"></i></a>
+          <a class="nav-link" href="#" style="color: #E6521F;">Meet an Expert</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fab fa-facebook fa-lg"></i></a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #E6521F;">
+            Visit Now
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#" style="color: #E6521F;">Request a Physical Tour</a></li>
+            <li><a class="dropdown-item" href="#" style="color: #E6521F;">Request a Virtual Tour</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#" style="color: #E6521F;">Check Itinery</a></li>
+          </ul>
         </li>
+        
       </ul>
+      <form class="d-flex" role="search" style="color: #E6521F; box-shadow: #E6521F;" >
+        <input  class="form-control me-2" type="search" placeholder="Location" aria-label="Search" style="background: white; border: #E6521F; " />
+        <button class="btn btn-outline-success" type="submit" style="color: #E6521F; border: black; background: white;">Search</button>
+      </form>
     </div>
   </div>
+  
 </nav>
 
 <div class="Page1">
@@ -67,6 +76,7 @@
             
     <button type="button" class="btn btn-lg px-4 me-sm-3" style="background-color: #E6521F; color: white; border: none;">
   Visit Today
+
 </button>
 
 <button type="button" class="btn btn-lg px-4" style="color: #E6521F; border: 2px solid #E6521F;">
@@ -80,5 +90,16 @@
         </div> 
     </div>
 </div>
+<div class="bottom-container text-center" style="color: #E6521F;">
+ 
+  <div class="d-flex justify-content-center gap-5">
+    <a class="footer-link" style="color: #E6521F;" href="https://www.youtube.com/watch?v=QInuA5PXSJo">Instagram</a>
+    <a class="footer-link" style="color: #E6521F;" href="https://youtube.com/shorts/r1LU1KE1pyA?si=bGi42vg3YvqQGweD">Facebook</a>
+    <a class="footer-link" style="color: #E6521F;" href="https://vaishnavisaumya1.github.io/Rajasthan/">Website</a>
+  </div>
+
+  <p class="copyright mt-3">© Vaishnavi Saumya.</p>
+</div>
 </body>
+
 </html> 
