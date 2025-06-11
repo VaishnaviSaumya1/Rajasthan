@@ -1,0 +1,23 @@
+.full-screen-card {
+  height: 100vh;
+  position: relative;
+}
+
+.full-screen-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-title {
+  font-family: serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  font-size: clamp(2rem, 10vw, 6rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
